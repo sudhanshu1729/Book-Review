@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book Details - Book Review Website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Book Review Website</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="categories.html">Categories</a></li>
+        <li><a href="book-details.html">Book Details</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="book-details">
+      <img src="https://m.media-amazon.com/images/I/51C-D-bXRpL._UF1000,1000_QL80_.jpg " width="150" height="250" alt="The Myth of Sisyphus Cover">
+      <h2>Title</h2>
+      <p><strong>Author:</strong>Albert Camus </p>
+      <p><strong>Genre:</strong> Philisophical Essay </p>
+      <p><strong>Description:</strong> </p>
+      <div class="rating">
+        <span>  *  *  *  *  </span>
+        <p>4.0/5.0</p>
+      </div>
+    </section>
+
+    <section class="reviews">
+      <h3>User Reviews</h3>
+      <div class="review">
+        <p><strong>Bund baxy</strong> * * * * *</p>
+        <p>This book was amazing! I couldn't put it down.</p>
+      </div>
+      <div class="review">
+        <p><strong>Gandu Garthur </strong> * * * * *</p>
+        <p>Good read, but the ending felt rushed.</p>
+      </div>
+    </section>
+
+    <section class="add-review">
+      <h3>Add Your Review</h3>
+      <form id="review-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+    
+        </select>
+        <label for="comment">Comment:</label>
+        <textarea id="comment" name="comment" rows="4" required></textarea>
+        <button type="submit" class="btn">Submit Review</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Book Review Website. All rights reserved.I don't know where all these rights are reserved but yeah it's reserved .</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
